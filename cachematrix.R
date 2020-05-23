@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
             }
             get <- function() x
             setinv <- function(inverse) inv <<- inverse
-            getmean <- function() inv
+            getinv <- function() inv
             list(set = set, get = get,
                  setinv = setinv,
                  getinv = getinv)
